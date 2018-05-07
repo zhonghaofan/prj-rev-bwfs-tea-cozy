@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid yellow; */
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+div {    
+    font-size: 22px;
+}
+
+.header {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.logo {    
+    display: flex;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+nav span {
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-top: 69px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url("./resources/img-mission-background.jpg");
+}
+
+.text {
+    padding: 10px;
+}
+
+.tom {
+    width: 1000px;
+}
+
+.tom {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumb {
+    margin: 10px 15px;
+}
+
+.thumb-pic img{
+    width: 300px;
+    height: 200px;
+}
+
+.thumb-text {
+    margin: 10px;
+}
+
+.location {
+    background-image: url("./resources/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    background-color: transparent;
+}
+
+.location-title{    
+    margin-top: 80px;    
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+.location-title h2 {
+    background-color: transparent;
+}
+
+.location-list {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.location-item {
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 1;
+}
+
+.location-item h3, .location-item div {
+    padding: 15px;
+}
+
+.contact {
+    margin: 20px;
+    height: 200px;
+}
+
+.contact-title {
+    padding-bottom: 20px;
+}
+
+.contact-email, .contact-phone {
+    padding: 20px;
+}
+
+.footer {
+    align-self: flex-start;
+    margin-bottom: 40px;
+}
+
+.copyright {
+    margin-left: 15px;
+}
